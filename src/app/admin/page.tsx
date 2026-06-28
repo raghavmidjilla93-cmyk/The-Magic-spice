@@ -663,5 +663,3 @@ export default function AdminPage() {
     : <LoginScreen onLogin={()=>setAuthed(true)}/>;
 }
 
-// Alias FormState for ItemModal
-type FormState = typeof DEFAULT_FORM;

@@ -9,9 +9,7 @@ import { MessageCircle, ArrowRight, Phone, ChevronLeft, ChevronRight } from 'luc
 const WA = '919849122963';
 const WA_BASE = `https://wa.me/${WA}`;
 
-/* ════════════════════════════════════════════════════════════
-   HERO — cinematic auto-slide between Biryani & Sizzler
-═══════════════════════════════════════════════════════════ */
+// HERO — cinematic auto-slide between Biryani & Sizzler
 
 const SLIDES = [
   {
@@ -185,9 +183,7 @@ function Hero() {
   );
 }
 
-/* ════════════════════════════════════════════════════════════
-   DISHES GRID — 9 real photos from the restaurant
-═══════════════════════════════════════════════════════════ */
+// DISHES GRID — 9 real photos from the restaurant
 
 const DISHES = [
   { name:'Hyderabadi Biryani',      sub:'Chicken · Silver Thali',   price:199, tag:'Specialty',  img:'/images/dishes/biryani-silver-thali.jpg',    wa:'Hyderabadi%20Biryani' },
@@ -296,9 +292,7 @@ function DishesGrid() {
   );
 }
 
-/* ════════════════════════════════════════════════════════════
-   BRANCHES — 3 locations with specialties
-═══════════════════════════════════════════════════════════ */
+// BRANCHES — 3 locations with specialties
 function Branches() {
   const branches = [
     {
@@ -420,9 +414,7 @@ function Branches() {
   );
 }
 
-/* ════════════════════════════════════════════════════════════
-   CTA
-═══════════════════════════════════════════════════════════ */
+// CTA
 function CTA() {
   return (
     <section className="relative py-20 px-6 overflow-hidden"
@@ -463,9 +455,7 @@ function CTA() {
   );
 }
 
-/* ════════════════════════════════════════════════════════════
-   PAGE
-═══════════════════════════════════════════════════════════ */
+// PAGE
 export default function HomePage() {
   return (
     <>
